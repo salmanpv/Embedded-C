@@ -101,6 +101,8 @@ void uart2_rxtx_init(void)
 
 void uart2_write(int ch)
 {
+    // You wait until the Transmit Data Register is empty before you write new data.
+    // If the register is still holding the previous data (still being sent), you must wait.
     /* Wait until transmit data register is empty */
     while (!(USART2->SR & SR_TXE)) {}
 
@@ -110,6 +112,8 @@ void uart2_write(int ch)
 
 char uart2_read(void)
 {
+    // Waits until data is available to read.  
+    // If you skip this check and read immediately, you might read garbage or read before new data has arrived.  
     /* Wait until receive data register is not empty */
     while (!(USART2->SR & SR_RXNE)) {}
 
