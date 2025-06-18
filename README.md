@@ -20,32 +20,23 @@
 
 ![image](https://github.com/user-attachments/assets/5c035b20-c351-4383-a92c-18dacbcc8c26)
 
-bitwise note:
-
- Enable systick and select internal clk src 
-    SysTick->CTRL = CTRL_ENABLE | CTRL_CLKSRC;
-
-SysTick->CTRL & CTRL_COUNTFLAG) == 0
-
-  1. Enable clock access to GPIOA 
-    RCC->AHB1ENR |= GPIOAEN;
-
-     2. Set PA5 as output pin 
-    GPIOA->MODER |= (1U << 10);
-    GPIOA->MODER &= ~(1U << 11);
-
-
-
-
-
-
-
-
-
-
 ![image](https://github.com/user-attachments/assets/f5869db6-b833-4f75-a1e0-41484d6c73d4)
 
 ![image](https://github.com/user-attachments/assets/a4c009da-3ccb-4b2b-8d39-d4d1617038e7)
+
+bitwise note:  
+
+Enable systick and select internal clk src  
+SysTick->CTRL = CTRL_ENABLE | CTRL_CLKSRC; 
+
+SysTick->CTRL & CTRL_COUNTFLAG) == 0  
+
+Enable clock access to GPIOA  
+RCC->AHB1ENR |= GPIOAEN;  
+
+Set PA5 as output pin  
+GPIOA->MODER |= (1U << 10);  
+GPIOA->MODER &= ~(1U << 11);  
 
 
 
