@@ -41,8 +41,10 @@ GPIOA->MODER &= ~(1U << 11);
 check update interupt flag  
 TIM2 -> SR & 1;
 
-clear update interupt flag
-TIM2 -> SR &= ~1;
+clear update interupt flag  
+TIM2 -> SR &= ~1;  
+
+
 
 
 
