@@ -36,7 +36,14 @@ RCC->AHB1ENR |= GPIOAEN;
 
 Set PA5 as output pin  
 GPIOA->MODER |= (1U << 10);  
-GPIOA->MODER &= ~(1U << 11);  
+GPIOA->MODER &= ~(1U << 11); 
+
+check update interupt flag  
+TIM2 -> SR & 1;
+
+clear update interupt flag
+TIM2 -> SR &= ~1;
+
 
 
 
