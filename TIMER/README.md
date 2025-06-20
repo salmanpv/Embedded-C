@@ -19,5 +19,8 @@
 
 ![image](https://github.com/user-attachments/assets/7bfb32c3-7af5-4c9b-a011-88076b974934)
 
+for input compare mode:
+
+
 
 
