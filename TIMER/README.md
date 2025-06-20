@@ -33,4 +33,6 @@ for input compare mode:
 
 ![image](https://github.com/user-attachments/assets/fcbd15c0-d79d-480f-a88a-e2cdcda12fc6)
 
+TIM3_CCR1
+![image](https://github.com/user-attachments/assets/d226759d-b905-47a8-8ef9-aa45d760db99)
 
