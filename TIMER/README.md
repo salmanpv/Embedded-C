@@ -20,6 +20,10 @@
 ![image](https://github.com/user-attachments/assets/7bfb32c3-7af5-4c9b-a011-88076b974934)
 
 for input compare mode:
+![image](https://github.com/user-attachments/assets/f90c7ed1-689b-418c-b82d-a7df2d3992fc)
+
+![image](https://github.com/user-attachments/assets/6bd07d5a-544b-4bea-82c2-a77b1a38b059)
+
 
 
 
