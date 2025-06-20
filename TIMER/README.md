@@ -25,9 +25,12 @@ for input compare mode:
 
 ![image](https://github.com/user-attachments/assets/6bd07d5a-544b-4bea-82c2-a77b1a38b059)
 
-![image](https://github.com/user-attachments/assets/776bcb52-1012-4dc1-9b99-54d490ca984e)
+![image](https://github.com/user-attachments/assets/5d7c8f17-335f-476f-a579-c87f5bdafcad)
 
-![image](https://github.com/user-attachments/assets/90cde4d6-c5d8-4131-a3c9-dff77cf364a5)
+![image](https://github.com/user-attachments/assets/b7cffd5b-11b8-44bb-b795-172c10593324)
 
+![image](https://github.com/user-attachments/assets/46a43975-2044-4658-8358-ff427837a24a)
+
+![image](https://github.com/user-attachments/assets/fcbd15c0-d79d-480f-a88a-e2cdcda12fc6)
 
 
