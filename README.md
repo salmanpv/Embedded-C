@@ -24,6 +24,10 @@
 
 ![image](https://github.com/user-attachments/assets/a4c009da-3ccb-4b2b-8d39-d4d1617038e7)
 
+for timer:
+![image](https://github.com/user-attachments/assets/b97d765f-8c4c-42c6-b5c0-7536b399abd6)
+
+
 bitwise note:  
 
 Enable systick and select internal clk src  
