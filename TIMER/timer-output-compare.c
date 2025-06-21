@@ -56,4 +56,29 @@ void tim2_pa5_output_compare(void)
 void tim2_1hz_init(void)
 {
 	/* Enable clock access to TIM2 */
-	RCC->APB1ENR |= TI
+	RCC->APB1ENR |= TIM2EN;
+
+	/* Set prescaler value */
+	TIM2->PSC = 1600 - 1;  // 16 MHz / 1600 = 10 kHz
+
+	/* Set auto-reload value */
+	TIM2->ARR = 10000 - 1; // 10 kHz / 10,000 = 1 Hz
+
+	/* Clear counter */
+	TIM2->CNT = 0;
+
+	/* Enable timer */
+	TIM2->CR1 = CR1_CEN;
+}
+
+/* Main Program */
+int main(void)
+{
+	/* Initialize Timer and configure PA5 to toggle at 1 Hz */
+	tim2_pa5_output_compare();
+
+	while (1)
+	{
+		/* Main loop does nothing, PA5 toggles automatically via hardware timer */
+	}
+}
