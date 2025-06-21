@@ -20,3 +20,13 @@ interrupts from outside the processor core are known as 'hardware exceptions' or
 interrupt handlers  
 exception handlers  
 
+External Interrupt (EXTI)  
+GPIO pins are connected to EXTI lines.  
+It possible to enable interrupt for any GPIO pin  
+Multiple pins share the same EXTI line  
+
+pin0 of every port is connected to EXT10_IRQ  
+pin1 of every port is connected to EXT11_IRQ  
+pin2 of every port is connected to EXT12_IRQ  
+pin3 of every port is connected to EXT13_IRQ
+
