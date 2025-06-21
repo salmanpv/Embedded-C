@@ -30,3 +30,6 @@ pin1 of every port is connected to EXT11_IRQ
 pin2 of every port is connected to EXT12_IRQ  
 pin3 of every port is connected to EXT13_IRQ
 
+![image](https://github.com/user-attachments/assets/4c38f228-78ff-424c-a6a8-114738d315c1)
+
+
